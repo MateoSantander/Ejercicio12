@@ -1,0 +1,25 @@
+<div id="pagina">
+    <h1 id = "saludo2">Bienvenido/a {{usuario}} a tu área de</h1>
+    <h1>Videojuegos</h1>
+    <br><br>
+    <div class="listav" id="lista">  
+            <h3 id="vusuario">Videojuegos de {{usuario}}</h3>
+            <br>
+            <li *ngFor="let v of lista" (mouseover)="mostrarInfo(v)" (mouseleave)="quitarInfo()">
+                <div class="videojuego">
+                    <img [src]=v.icono class="icono"><p class="infov">{{ v.nombre }}</p>
+                </div>
+                <br><br>
+            </li>
+    </div>
+    <div id="infoVideojuego" *ngIf="enable">
+        <p>Titulo: {{titulo}}</p>
+        <p>Compañia: {{compania}}</p>
+        <p>Rating: {{rating}}</p>
+        <img [src]="icono" id="imagen">
+    </div>
+    
+</div>
+    
+    
+    

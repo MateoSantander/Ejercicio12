@@ -1,0 +1,23 @@
+#head{
+    width: 100%;
+    background-color: rgb(219, 53, 53);
+    margin-bottom: 50PX;
+
+}
+
+#saludo{
+    color:aliceblue;
+    font-size: 40px;
+}
+
+button{
+    margin-right: 233px;
+    border-width: 5px;
+    border-radius: 6px;
+    border-style:groove;
+    background-color: rgb(152, 4, 4);
+    border-color: rgb(152, 4, 4);
+    color: rgb(219, 200, 200);
+    display: inline;
+    font-size: 20px;
+}

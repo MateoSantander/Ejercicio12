@@ -1,0 +1,88 @@
+#saludo2{
+    text-align: left;
+    font-size: 40px;
+    color: rgb(160, 31, 26);
+}
+
+#pagina{
+    border: 5px;
+    background-color:rgb(207, 111, 111);
+}
+
+.listav{
+    text-align: center;
+    display:flex;
+    float: left;
+    margin-left: 200px;
+    padding: 2px;
+    margin-bottom: 100px;
+}
+
+li{
+    margin-left: 15px;
+}
+
+h1{
+    font-size: 60px;
+    color: rgb(96, 4, 4);
+}
+
+h3{
+    color: rgb(235, 52, 52);
+}
+
+#vusuario{
+    color: aliceblue;
+}
+
+#lista{
+    text-align: center;
+    margin-top: 70px;
+    background-color: rgb(223, 106, 90);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+th, td {
+    width: 25%;
+    padding: 8px;
+ }
+#infoVideojuego{
+    margin-top: 70px;
+    margin-left: 100px;
+    background-color: rgb(223, 106, 90);
+    padding: 20px;
+    float: left;
+}
+
+#imagen{
+    width: 200px;
+    height: 150px;
+}
+.icono{
+    width: 70px;
+    height: 70px;
+    float: center;
+}
+.videojuegos{
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.juego{
+    margin-top: 30px;
+}
+ @media screen and (max-width: 1300px){
+     #pagina{
+         margin-right: 800px;
+         margin-bottom: 30px;
+     }
+
+    h1{
+        text-align: left;
+        margin-left: 30px;
+    }
+}

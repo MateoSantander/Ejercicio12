@@ -1,0 +1,31 @@
+#pagina{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.seccion{
+    margin-left: 90px;
+    margin-bottom: 40px;
+    float: center;
+    padding: 10px;
+    width: 30%;
+    padding-bottom: 20px;
+}
+#body{
+    margin-top: 110px;
+}
+
+h1{
+    color: rgb(96, 4, 4);
+}
+
+#resumen{
+    background-color: rgb(218, 80, 42);
+    color: rgb(255, 243, 240);
+
+}
+
+#sobremi{
+    background-color: rgb(218, 80, 42);
+    color: rgb(255, 243, 240);
+}
